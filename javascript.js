@@ -1,6 +1,6 @@
 const containerA = document.querySelector('#Head');
 const containerB = document.querySelector('#Body');
-let gridDimension=8;
+let gridDimension=20;
 
 const theSlider = document.getElementById("myRange");
 
@@ -28,7 +28,11 @@ function createGrid(){
     
         for(let col=0;col<gridCol.length;col++){
             const div = document.createElement("div");
-            div.className="Box";
+            div.style.border="1px solid black";
+            div.style.color="white";
+            let num=1080/gridDimension;
+            div.style.height=`${num}px`;
+            div.style.width=`${num}px`;
             div.addEventListener('mouseenter', () =>{
                 div.style.backgroundColor="purple";
             });
