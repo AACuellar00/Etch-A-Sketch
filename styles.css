@@ -3,13 +3,45 @@
     justify-content: center;
     display: flex;
 }
+
 .Col{
 
 }
+
 .Box{
   height: 30px;
   width: 30px;
   border: solid black 1px;
   color: whitesmoke;
+}
+
+.Title{
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  font-size: 40px;
+  color:black;
+  font-style: bold;
+}
+
+.Head{
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  font-size: 40px;
+  color:black;
+  font-style: bold;
+}
+
+.SlideCont{
+  align-items: center;
+  justify-content: center;
+  display:flex;
+}
+
+
+button{
+  height: 40px;
+  width: 100px;
 }
 
