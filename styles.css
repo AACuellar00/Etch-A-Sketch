@@ -1,0 +1,15 @@
+.Row{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.Col{
+
+}
+.Box{
+  height: 30px;
+  width: 30px;
+  border: solid black 1px;
+  color: whitesmoke;
+}
+
