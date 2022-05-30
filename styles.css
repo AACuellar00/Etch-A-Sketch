@@ -1,23 +1,24 @@
-.Row{
-    align-items: center;
-    justify-content: center;
-    display: flex;
+*{
+  background-color: grey;
 }
 
-.Col{
-
+body{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
-.Box{
-  height: 54px;
-  width: 54px;
-  border: solid black 1px;
-  color: whitesmoke;
+#Body{
+  height: 960px;
+  width: 960px;
+  margin-top: 50px;
+  display: inline-grid;
+  border: 5px solid yellow;
+  border-radius:5px;
 }
 
 .Title{
-  align-items: center;
-  justify-content: center;
   display: flex;
   font-size: 40px;
   color:black;
@@ -25,23 +26,14 @@
 }
 
 .Head{
-  align-items: center;
-  justify-content: center;
-  display: flex;
   font-size: 40px;
   color:black;
   font-style: bold;
 }
 
-.SlideCont{
-  align-items: center;
-  justify-content: center;
-  display:flex;
-}
-
-
 button{
   height: 40px;
   width: 100px;
 }
+
 
